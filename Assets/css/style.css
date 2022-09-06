@@ -11,7 +11,7 @@ html {
 
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/Assets/Images/Pillars.jpg");
-  height: 50%;
+  height: 35%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -57,11 +57,18 @@ li {
 
 .buttons li:hover {
   opacity: .9;
-  box-shadow: 0px 0px 20px white
+  box-shadow: 0px 0px 10px white
 }
 
 .buttons li:active {
   opacity: .6;
+}
+
+.col1 img {
+  height: 380px;
+  width: 700px;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .aboutme {
@@ -73,9 +80,6 @@ li {
 }
 
 .container {
-  border-style: solid
-  border-width: 5px;
-  border-color: black;
   margin: 20px;
   padding: 30px;
 }
@@ -107,4 +111,50 @@ li {
   margin-bottom: 20px;
   padding: 10px;
   text-align: center;
+}
+
+.contact {
+  background-color: darkslategray;
+  color: white;
+  text-align: center;
+  height: 130px;
+  padding: 10 0 10 0;
+}
+
+.contact h2 {
+  padding-top: 10px
+}
+
+.contact li {
+  float: none;
+  list-style: none;
+  font-family: sans-serif;
+  text-align: center;
+  background-color: rgb(36, 36, 36);
+  margin-top: 0px;
+  margin-right: 30px;
+  width: 110px;
+  line-height: 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+
+.contact li a {
+  text-decoration: none;
+  color: white;
+}
+
+.contact li:hover {
+  opacity: .9;
+  box-shadow: 0px 0px 5px white
+}
+
+.contact li:active {
+  opacity: .6;
+}
+
+.col1 img {
+  list-style-image: url(/Assets/Images/Prework\ ss.PNG);
 }
