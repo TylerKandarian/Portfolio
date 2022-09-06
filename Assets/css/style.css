@@ -77,7 +77,13 @@ li {
   border-color: black;
   margin: 20px;
   padding: 20px;
+  height: 400px;
 }
+
+#me {
+  float: right;    
+   margin: 0 0 0 15px;
+  }
 
 .container {
   margin: 20px;
