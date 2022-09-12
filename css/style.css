@@ -8,6 +8,7 @@ body,
 html {
   height: 100%;
   scroll-behavior: smooth;
+  text-align: center;
 }
 
 .hero-image {
@@ -65,13 +66,6 @@ li {
   opacity: .6;
 }
 
-.col1 img {
-  height: 380px;
-  width: 700px;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
 .aboutme {
   border-style: solid;
   border-width: 5px;
@@ -87,39 +81,67 @@ li {
    margin: 0 0 0 15px;
   }
 
-.container {
-  margin: 20px;
-  padding: 30px;
-}
+  .work {
+    padding-top: 60px;
+    margin-top: 60px;
+    padding-bottom: 60px;
+    background-color: rgb(181, 181, 181);
+  }
+  
+  .work .work-header {
+    margin-top: 50px;
+    color: #111;
+    font-weight: normal;
+  }
+  
+  .projectmain{
+    text-decoration: none;
+    background-color: #c4c4c4;
+    display: inline-block;
+    overflow: hidden;
+    border: 2px solid #ababab;
+    border-radius: 5px;
+    height: 320px;
+    width: 380px;
+    margin: 40px 100px;
+  }
 
-.container h2 {
-  text-align: center;
-}
+  .project-picmain {
+    width: 100%;
+    height: 280px;
+    border-bottom: 2px solid #ababab;
+    border-radius: 5px;
+  }
 
-.col1 {
-  border-style: solid;
-  border-width: 5px;
-  border-color: black;
-  height: 400px;
-  width: 700px;
-  margin: auto;
-  margin-bottom: 20px;
-  padding: 10px;
-  text-align: center;
-}
-
-.col {
-  border-style: solid;
-  border-width: 5px;
-  border-color: black;
-  height: 250px;
-  width: 400px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 20px;
-  padding: 10px;
-  text-align: center;
-}
+  .project {
+    text-decoration: none;
+    background-color: #c4c4c4;
+    display: inline-block;
+    overflow: hidden;
+    border: 2px solid #ababab;
+    border-radius: 5px;
+    height: 220px;
+    width: 280px;
+    margin: 40px 100px;
+  }
+  
+  .project-pic {
+    width: 100%;
+    height: 180px;
+    border-bottom: 2px solid #ababab;
+    border-radius: 5px;
+  }
+  
+  .project-title {
+    color: #111;
+    font-weight: bold;
+    padding-top: 6px;
+  }
+  
+  .project-title:hover {
+    color: #939393;
+    
+  }
 
 .contact {
   background-color: darkslategray;
@@ -172,3 +194,4 @@ li {
     font-size: 10px;
 
   }
+}
