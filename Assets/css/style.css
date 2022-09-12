@@ -1,6 +1,7 @@
 body {
   background-color: rgb(181, 181, 181);
   margin: 0px;
+  width: 100%;
 }
 
 body,
@@ -78,6 +79,7 @@ li {
   margin: 20px;
   padding: 20px;
   height: 400px;
+  font-size: 15px;
 }
 
 #me {
@@ -164,3 +166,9 @@ li {
 .col1 img {
   list-style-image: url(/Assets/Images/Prework\ ss.PNG);
 }
+
+@media screen and (max-width: 768px) {
+  .aboutme {
+    font-size: 10px;
+
+  }
