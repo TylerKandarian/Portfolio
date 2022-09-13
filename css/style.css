@@ -18,6 +18,7 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  width: 100%;
 }
 
 .hero-text {
@@ -74,74 +75,77 @@ li {
   padding: 20px;
   height: 400px;
   font-size: 15px;
+  display: flexbox;
 }
 
-#me {
-  float: right;    
-   margin: 0 0 0 15px;
-  }
+.aboutme img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+}
 
-  .work {
-    padding-top: 60px;
-    margin-top: 60px;
-    padding-bottom: 60px;
-    background-color: rgb(181, 181, 181);
-  }
-  
-  .work .work-header {
-    margin-top: 50px;
-    color: #111;
-    font-weight: normal;
-  }
-  
-  .projectmain{
-    text-decoration: none;
-    background-color: #c4c4c4;
-    display: inline-block;
-    overflow: hidden;
-    border: 2px solid #ababab;
-    border-radius: 5px;
-    height: 320px;
-    width: 380px;
-    margin: 40px 100px;
-  }
+.work {
+  padding-top: 60px;
+  margin-top: 60px;
+  padding-bottom: 60px;
+  background-color: rgb(181, 181, 181);
+}
 
-  .project-picmain {
-    width: 100%;
-    height: 280px;
-    border-bottom: 2px solid #ababab;
-    border-radius: 5px;
-  }
+.work .work-header {
+  margin-top: 50px;
+  color: #111;
+  font-weight: normal;
+}
 
-  .project {
-    text-decoration: none;
-    background-color: #c4c4c4;
-    display: inline-block;
-    overflow: hidden;
-    border: 2px solid #ababab;
-    border-radius: 5px;
-    height: 220px;
-    width: 280px;
-    margin: 40px 100px;
-  }
-  
-  .project-pic {
-    width: 100%;
-    height: 180px;
-    border-bottom: 2px solid #ababab;
-    border-radius: 5px;
-  }
-  
-  .project-title {
-    color: #111;
-    font-weight: bold;
-    padding-top: 6px;
-  }
-  
-  .project-title:hover {
-    color: #939393;
-    
-  }
+.projectmain {
+  text-decoration: none;
+  background-color: #c4c4c4;
+  display: inline-block;
+  overflow: hidden;
+  border: 2px solid #ababab;
+  border-radius: 5px;
+  height: 320px;
+  width: 380px;
+  margin: 40px 100px;
+}
+
+.project-picmain {
+  width: 100%;
+  height: 280px;
+  border-bottom: 2px solid #ababab;
+  border-radius: 5px;
+}
+
+.project {
+  text-decoration: none;
+  background-color: #c4c4c4;
+  display: inline-block;
+  overflow: hidden;
+  border: 2px solid #ababab;
+  border-radius: 5px;
+  height: 220px;
+  width: 280px;
+  margin: 40px 100px;
+}
+
+.project-pic {
+  width: 100%;
+  height: 180px;
+  border-bottom: 2px solid #ababab;
+  border-radius: 5px;
+}
+
+.project-title {
+  color: #111;
+  font-weight: bold;
+  padding-top: 6px;
+}
+
+.project-title:hover {
+  color: #939393;
+
+}
 
 .contact {
   background-color: darkslategray;
@@ -185,13 +189,9 @@ li {
   opacity: .6;
 }
 
-.col1 img {
-  list-style-image: url(/Assets/Images/Prework\ ss.PNG);
-}
-
 @media screen and (max-width: 768px) {
-  .aboutme {
-    font-size: 10px;
-
+  .aboutme img {
+    width: 100px;
+    height: 200px;
   }
 }
