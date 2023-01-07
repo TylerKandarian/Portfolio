@@ -19,6 +19,7 @@
                     <li><a href="#about-me">About Me</a></li>
                     <li><a href="#My-Applications">My Applications</a></li>
                     <li><a href="#Contact-Me">Contact Me</a></li>
+                    <li><a href="https://www.linkedin.com/in/tyler-kandarian-258864226/" target="_blank">LinkedIn</a></a></li>
                 </ul>
             </nav>
         </div>
@@ -37,7 +38,11 @@
     </section> -->
     <div id="about">
   <img src="./Assets/Images/Me.jpeg" alt="Picture of me">
-  <p>Hello, my name is [Your Name] and I am a [Your Profession]. I have a passion for [Something You Love] and have been [Something You Have Done]. In my free time, I enjoy [Something You Enjoy Doing].</p>
+  <p>Hi, my name is Tyler Kandarian and I am from Atlanta, Georgia. As of now I am working on becoming a full stack
+    developer. Before I chose to do this I was
+    in school getting my pilots license. As some more thought went in I decided to make the switch and purse wed
+    development. So far I have an undesatdning of HTML, CSS and Javascript. During the next few months i will learn
+    more backend languages and be able to work at your company as a full stack developer!</p>
 </div>
 
     <div id="My-Applications" class="work">
@@ -65,26 +70,21 @@
 
     </div>
 
-    <footer id="Contact-Me" class="contact">
-        <div class="footercolor">
-            <h2>Contact Me</h2>
-            <ul>
-                <li><a href="mailto:Tyler.kand2@gmail.com"> Email Me</a></li>
-                <li><a href="https://www.linkedin.com/in/tyler-kandarian-258864226/" target="_blank">LinkedIn</a></a></li>
-                <!-- <li><a href="tel:6785201861">Call Me</a></li> -->
-            </ul>
+    <div>
+        <form action="/submit.php" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message"></textarea><br>
+            <button type="submit">Submit</button>
+          </form> 
+          <script src="./contact-form.js"></script>
+    </div>
 
-            <form id="contact-form">
-                <label for="name">Name:</label><br>
-                <input type="text" id="name" name="name"><br>
-                <label for="email">Email:</label><br>
-                <input type="email" id="email" name="email"><br>
-                <label for="message">Message:</label><br>
-                <textarea id="message" name="message"></textarea><br>
-                <input type="submit" value="Submit">
-            </form> 
-        </div>
-          
+    <footer class="footertext">
+          <p>Thank you for viewing!</p>
     </footer>
 
 </body>
