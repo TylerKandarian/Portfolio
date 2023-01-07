@@ -27,7 +27,7 @@ form.addEventListener('submit', (event) => {
     const body = `Name: ${name}\nEmail: ${email}\nMessage:\n${message}`;
 
     // Send the form data as a POST request
-    fetch('/submit-form', {
+    fetch('https://tylerkandarian.github.io/Portfolio//submit-form', {
       method: 'POST',
       body: formData,
     })
