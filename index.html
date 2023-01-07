@@ -23,7 +23,7 @@
             </nav>
         </div>
     </header>
-    <section id="about-me" class="aboutme">
+    <!-- <section id="about-me" class="aboutme">
         <p>
         <h2>About Me</h2>
         Hi, my name is Tyler Kandarian and I am from Atlanta, Georgia. As of now I am working on becoming a full stack
@@ -34,7 +34,12 @@
         <img src="./Assets/Images/Me.jpeg" alt="Picture of Tyler Kandarian in Chicago tower" width="200"
             height="300"></img>
         </p>
-    </section>
+    </section> -->
+    <div id="about">
+  <img src="./Assets/Images/Me.jpeg" alt="Picture of me">
+  <p>Hello, my name is [Your Name] and I am a [Your Profession]. I have a passion for [Something You Love] and have been [Something You Have Done]. In my free time, I enjoy [Something You Enjoy Doing].</p>
+</div>
+
     <div id="My-Applications" class="work">
         <h2 class="work-header">My Projects</h2>
         <a href="https://tylerkandarian.github.io/Prework-Study-Guide/" target="_blank"
@@ -61,12 +66,25 @@
     </div>
 
     <footer id="Contact-Me" class="contact">
-        <h2>Contact Me</h2>
-        <ul>
-            <li><a href="mailto:Tyler.kand2@gmail.com"> Email Me</a></li>
-            <li><a href="https://www.linkedin.com/in/tyler-kandarian-258864226/" target="_blank">LinkedIn</a></a></li>
-            <li><a href="tel:6785201861">Call Me</a></li>
-        </ul>
+        <div class="footercolor">
+            <h2>Contact Me</h2>
+            <ul>
+                <li><a href="mailto:Tyler.kand2@gmail.com"> Email Me</a></li>
+                <li><a href="https://www.linkedin.com/in/tyler-kandarian-258864226/" target="_blank">LinkedIn</a></a></li>
+                <!-- <li><a href="tel:6785201861">Call Me</a></li> -->
+            </ul>
+
+            <form id="contact-form">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message"></textarea><br>
+                <input type="submit" value="Submit">
+            </form> 
+        </div>
+          
     </footer>
 
 </body>
